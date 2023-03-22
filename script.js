@@ -5,7 +5,7 @@ const [lista] = document.getElementsByName('lista')
 function adicionar() {   
     const btn = document.querySelector('button')
     btn.addEventListener('click', () => {
-    const entrada = document.querySelector('input')
+        const entrada = document.querySelector('input')
     }) 
     lista.appendChild(entrada) 
     root.innerHTML += `<li> ${lista} </li>`
@@ -15,10 +15,10 @@ function adicionar() {
 function deletar(item) {
     const btn = document.querySelector('button')
     btn.addEventListener('click', () => {
-    const entrada = document.querySelector('input')
+        const entrada = document.querySelector('input')
     }) 
     lista.removeChild(entrada) 
-    root.innerHTML += `<li> ${lista} </li>`
+    root.innerHTML += `<li>' '</li>`
     console.log("Item deletado")
 }
 
